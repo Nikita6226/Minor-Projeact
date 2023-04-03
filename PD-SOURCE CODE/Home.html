@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vertual Visit To Indian Pilgrimages</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+      .image-scroll {
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .image-container {
+        display: flex;
+        flex-wrap: nowrap;
+        animation: scroll 500s linear infinite;
+      }
+
+      .image-container img {
+        width: 500px;
+        height: 350px;
+        margin-right: 5px;
+        object-fit: cover;
+      }
+
+      @keyframes scroll {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(calc(-220px * 9));
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+      <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+        <a class="w3-bar-item w3-button"><b>Virtual Visit</b> To Indian Pilgrimages</a>
+        <!-- Float links to the right. Hide them on small screens -->
+        <div class="w3-right w3-hide-small">
+          <a href="./Places.html" class="w3-bar-item w3-button">PLACES</a>
+          <a href="#contact" class="w3-bar-item w3-button">CONTACT US</a>
+          <a href="./Feedback.html" class="w3-bar-item w3-button">FEEDBACK</a>
+          <a href="./Help.html" class="w3-bar-item w3-button">HELP</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <!-- <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+      <img class="w3-image" src="" alt="Scroll Image 01" width="1500" height="800">
+      <div class="w3-display-middle w3-margin-top w3-center">
+        <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>Virtual Visit</b></span> <span class="w3-hide-small w3-text-light-grey">To Indian Pilgrimages</span></h1>
+      </div>
+    </header> -->
+
+    <!-- Page content -->
+    <br>
+    <br><br>
+    <div class="image-scroll">
+      <div class="image-container">
+        <img src="https://www.tourmyindia.com/states/tamilnadu/images/rameshwaram-temple1-1.jpg">
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/e7/47/b5/this-sanctum-sanctorum.jpg?w=400&h=300&s=1">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx8UICIaGjSwF0A8FqWQJcuHcx0mkD1JX7l8quSMggRXxU4psph8HEmouzh3wCxvWRGB8&usqp=CAU">
+        <img src="https://www.boldsky.com/img/2018/07/tirupatibalaji-1532002129.jpg">
+        <img src="https://cdn.britannica.com/13/189813-050-BF6163E7/Manikarnika-Ghat-cremation-site-Hindu-Ganges-River.jpg">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Badrinath_Temple_%2C_Uttarakhand.jpg">
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/45/3b/da/the-main-temple.jpg?w=1200&h=-1&s=1">
+        <img src="https://www.tourmyindia.com/images/raigad-fort-maharashtra1.jpg">
+        
+      </div>
+    </div>
+    <div class="w3-content w3-padding" style="max-width:1564px">
+      <!-- Project Section -->
+      <div class="w3-container w3-padding-32" id="projects">
+        <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Most Visited Places</h3>
+      </div>
+
+      <div class="w3-row-padding">
+        <div class="w3-col l3 m6 w3-margin-bottom">
+          <div class="w3-display-container">
+            <div class="w3-display-topleft w3-black w3-padding"><a href="./Rameshwaram.html">Rameshwaram</a></div>
+            <img src="https://www.tourmyindia.com/states/tamilnadu/images/rameshwaram-temple1-1.jpg" alt="House" style="width:100%">
+          </div>
+        </div>
+        <div class="w3-col l3 m6 w3-margin-bottom">
+          <div class="w3-display-container">
+            <div class="w3-display-topleft w3-black w3-padding"><a href="./Amritsar.html">Amritsar</a></div>
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/e7/47/b5/this-sanctum-sanctorum.jpg?w=400&h=300&s=1" alt="House" style="width:100%">
+          </div>
+        </div>
+        <div class="w3-col l3 m6 w3-margin-bottom">
+          <div class="w3-display-container">
+            <div class="w3-display-topleft w3-black w3-padding"><a href="./Ashtavanayaka.html">Ashtavanayaka</a></div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx8UICIaGjSwF0A8FqWQJcuHcx0mkD1JX7l8quSMggRXxU4psph8HEmouzh3wCxvWRGB8&usqp=CAU" alt="House" style="width:100%">
+          </div>
+        </div>
+        <div class="w3-col l3 m6 w3-margin-bottom">
+          <div class="w3-display-container">
+            <div class="w3-display-topleft w3-black w3-padding"><a href="./Balaji.html">Balaji</a></div>
+            <img src="https://www.boldsky.com/img/2018/07/tirupatibalaji-1532002129.jpg" alt="House" style="width:100%">
+          </div>
+        </div>
+      </div>
+
+      <div class="w3-row-padding">
+        <div class="w3-col l3 m6 w3-margin-bottom">
+          <div class="w3-display-container">
+            <div class="w3-display-topleft w3-black w3-padding"><a href="./Varanasi.html">Varanasi</a></div>
+            <img src="https://cdn.britannica.com/13/189813-050-BF6163E7/Manikarnika-Ghat-cremation-site-Hindu-Ganges-River.jpg" alt="House" style="width:99%">
+          </div>
+        </div>
+        <div class="w3-col l3 m6 w3-margin-bottom">
+          <div class="w3-display-container">
+            <div class="w3-display-topleft w3-black w3-padding"><a href="./Badrinath.html">Badrinath</a></div>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Badrinath_Temple_%2C_Uttarakhand.jpg" alt="House" style="width:99%">
+          </div>
+        </div>
+        <div class="w3-col l3 m6 w3-margin-bottom">
+          <div class="w3-display-container">
+            <div class="w3-display-topleft w3-black w3-padding"><a href="./Gangotri.html">Gangotri</a></div>
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/45/3b/da/the-main-temple.jpg?w=1200&h=-1&s=1" alt="House" style="width:99%">
+          </div>
+        </div>
+        <div class="w3-col l3 m6 w3-margin-bottom">
+          <div class="w3-display-container">
+            <div class="w3-display-topleft w3-black w3-padding"><a href="./Dwaraka.html">Dwarka</a></div>
+            <img src="https://th.bing.com/th/id/OIP.veqbz1fSMeyrrDluEJ6iBgHaEO?w=286&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="House" style="width:99%">
+          </div>
+        </div>
+      </div>
+
+      <!-- About Section -->
+      <div class="w3-container w3-padding-32" id="about">
+        <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Just a word</h3>
+        <p> &emsp;&nbsp;Many think a virtual tour is a collection of photos strung together and “run” like a    
+          screen show.    The user can hit “play” or click through the static images but nothing more. No zooming in, no seeing what’s over there in the corner, no investigating every nook and cranny of what’s in the image.
+          &emsp;&nbsp;Other’s call a video a virtual tour but the viewer is at the mercy of the person shooting the video with little control over what they want to look at. A video provides a little more to see but you find yourself looking at the screen and saying, “go back” or “freeze that” in order to get a better look.<br>    
+          &emsp;&nbsp;A 360 Virtual Tour is a collection of 360-degree panoramic rotating images, “stitched” together to form a full, 360° view of a location.  Special cameras, lenses, technology, and methods are used to bring a tour together into a visual experience for the viewer. <br>
+          &emsp;&nbsp;A virtual tour package consists of several high-resolution photographs, called  “spins”, brought together in a complete tour package. This high-quality user experience shows multiple locations throughout a site, switching views via thumbnails.  The user has full control over what they want to look at and can zoom in or out to enhance the scene they’re viewing. <br>    
+        </p>
+      </div>
+
+      <div class="w3-row-padding w3-grayscale">
+        <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">CHAR DHAM</h3>
+        <div class="w3-col l3 m6 w3-margin-bottom">
+          <img src="https://th.bing.com/th/id/OIP.fYrKVAODZZ934Fa26mBOPQHaE5?pid=ImgDet&rs=1" alt="Badrinath" style="width:100%">
+          <h5>Badrinath Temple</h5>
+          <p>Badrinath Temple, Chamoli, Uttarakhand, India.</p>
+          <p>One of the Char Dham. It is opened for six months in a year. The climate is cold even in the summer. It is better plan visit in summer to Badrinath.<a href="https://badrinath-kedarnath.gov.in/">Official Website</a></p>
+          <p><button class="w3-button w3-light-grey w3-block"> <a href="./Badrinath.html" target="_blank">Let's Visit</a></button></p>
+        </div>
+
+        <div class="w3-col l3 m6 w3-margin-bottom">
+          <img src="https://imgs.search.brave.com/9384Q0BLcyF7Fs3vteO9SU0DaobCje-UlPrKwLeeHJI/rs:fit:632:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5j/YkluWEVETzM2VnFI/OTdyQnNsclhnSGFG/aiZwaWQ9QXBp" alt="Dwarka" style="width:100%">
+          <h5>Dwarka</h5>
+          <p>Dwarka, Gujarat, India.</p>
+          <p>One of the Char Dham. It represents the sinked city of Lord Krishna. Before thousand of years the actual city got sinked in the sea.<a href="https://www.dwarkadhish.org/">Official Website</a></p>
+          <p><button class="w3-button w3-light-grey w3-block"> <a href="./Dwarka.html" target="_blank">Let's Visit</a></button></p>
+        </div>
+
+        <div class="w3-col l3 m6 w3-margin-bottom">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/The_Golden_Temple_of_Amrithsar_7.jpg/1200px-The_Golden_Temple_of_Amrithsar_7.jpg" alt="Mike" style="width:100%">
+          <h6>Jagannath Puri Temple </h6>
+          <p>Jagannath Puri Temple, Puri, Odisha, India</p>
+          <p>Its a holy temple in the beautiful place named Puri in the the state of Odisha, the eastern coast of India, dedicated to Lord Vishnu. The present temple was rebuilt from the tenth century onwards.</p>
+          <p><button class="w3-button w3-light-grey w3-block"><a href="./Jagannath Puri.html" target="_blank">Let's Visit</a></button></p>
+        </div>
+
+        <div class="w3-col l3 m6 w3-margin-bottom">
+          <img src="https://www.thedivineindia.com/img/rameswaram-temple.jpg" alt="John" style="width:100%">
+          <h5>Rameshwaram Temple</h5>
+          <p>Rameshwaram Temple, Rameshwaram, Tamil Nadu, India.</p>
+          <p>One of the four Char Dham of India. It modestly loved to visit by devoties of Lord Shiva. The Enougration Stone of this Holy Tempel was places by Lord Ram, on his way to <a href="https://en.wikipedia.org/wiki/Sri_Lanka">Shrilanka</a></p>
+          <p><button class="w3-button w3-light-grey w3-block"> <a href="./Rameshwaram.html" target="_blank">Let's Visit</a></button></p>
+        </div>
+      </div>
+
+      <!-- Contact Section -->
+      <div class="w3-container w3-padding-32" id="contact">
+        <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
+        <p>Lets get in touch and talk about your next step.</p>
+        <form action="/action_page.php" target="_blank">
+          <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+          <input class="w3-input w3-section w3-border" type="email" placeholder="Email" required name="Email">
+          <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject">
+          <input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment">
+          <button class="w3-button w3-black w3-section" type="submit">
+            <i class="fa fa-paper-plane"></i> SEND MESSAGE
+          </button>
+        </form>
+      </div>
+      <!-- Image of location/map -->
+      <!-- <div class="w3-container">
+        <img src="/w3images/map.jpg" class="w3-image" style="width:100%">
+      </div> -->
+      <!-- End page content -->
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-center w3-black w3-padding-16">
+      <p>All rights reserved to Optimum</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMRITSAR</title>
+    <link rel="stylesheet" href="The CSS.css">    
+  </head>
+
+  <body>
+    <div class="Head">
+      <br>
+      <div id="content"></div>
+      <script>
+        fetch('Navigation.html')
+        .then(response => response.text())
+        .then(data => {
+          const content = document.querySelector('#content');
+          content.innerHTML = data;
+        })
+        .catch(error => console.log(error));
+      </script>
+      <br>
+      <h1> <b>AMRITSAR</b> </h1>
+      <!-- ----------CLIMATE OF THE PLACE---------- -->
+      <div class="Climate">
+        <a class="weatherwidget-io" href="https://forecast7.com/en/31d6374d87/amritsar/" data-label_1="AMRITSAR" data-font="Times New Roman" data-icons="Climacons Animated" data-theme="original" >AMRITSAR WEATHER</a>
+        <script>
+          !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+        </script>
+      </div>
+    </div>
+    <!-- ----------INFORMATION COLLAPSABLE SECTION---------- -->
+    <h3>Basic and Necessary Information</h3>
+    <div class="Info">
+      <button class="collapsible">Historical Information</button>
+      <div class="content">
+        <p>
+          &emsp;&nbsp; <br>
+          &emsp;&nbsp;
+        </p>
+      </div>
+      <br>
+      <button class="collapsible">Architectural Information</button>
+      <div class="content">
+        <p>
+          &emsp;&nbsp; <br>
+          &emsp;&nbsp;
+        </p>
+      </div>
+      <br>
+      <button class="collapsible">Place Related Information</button>
+      <div class="content">
+        <p>
+          <b>Information</b> <br>
+          &emsp;&nbsp;<br>          
+        </p>
+      </div>
+    </div>
+
+    <!-- MAP -->
+    <br>
+      <a href="https://www.google.com/maps/dir/21.0079487,75.4985521/Amritsar,+Punjab/@31.6311497,74.8736332,16.54z/data=!4m10!4m9!1m1!4e1!1m5!1m1!1s0x391964aa569e7355:0xeea2605bee84ef7d!2m2!1d74.8722642!2d31.6339793!3e0!11m1!6b1" target="_blank" rel="noopener noreferrer" style="font-size: 50px;" title="Way to Amritsar">&#127757;</a>
+    <br>
+
+    <!-- IMAGES -->
+    <div class="image">
+      <h1 id="images" style="background-color:rgb(130, 127, 126);"><i>IMAGES OF AMRITSAR</i></h1>
+    </div>
+    <div class="images-container">
+      <div class="row">
+        <div class="column">
+          <img src="https://static.toiimg.com/photo/68848582/golden-temple.jpg?width=748&resize=4" alt="Snow" style="width:100%" style="height:100%">
+          <!-- <figcaption>The Image</figcaption> -->
+        </div>
+        <div class="column">
+          <img src="https://1.bp.blogspot.com/---xROPMz6rA/Wf0BKia0-EI/AAAAAAAAM_I/PK3Y27eS4u0Ttvndf7FfmQtTJqwZrI-ygCLcBGAs/s1600/SriHarmandirSahibLake.jpg" alt="Forest" style="width:100%" style="height:20%">
+        </div>
+        <div class="column">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Golden_Temple_reflecting_in_the_Sarovar%2C_Amritsar.jpg" alt="Forest" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="https://cdn.audleytravel.com/1490/1064/79/1340501-amritsars-golden-temple.jpg" alt="Forest" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="https://th.bing.com/th/id/OIP.Ix-xgfYFG6F1-Yga6GoeeQHaE8?pid=ImgDet&w=1200&h=800&rs=1" alt="Mountains" style="width:100%">
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="column">
+          <img src="https://th.bing.com/th/id/OIP.Ix-xgfYFG6F1-Yga6GoeeQHaE8?pid=ImgDet&w=1200&h=800&rs=1" alt="Snow" style="width:100%" style="height:100%">
+          <!-- <figcaption>The Image</figcaption> -->
+        </div>
+        <div class="column">
+          <img src="https://th.bing.com/th/id/R.5d37e1b44b63686679d68c9027d98194?rik=705Ve8Q5uRsEWg&riu=http%3a%2f%2fwww.hdnicewallpapers.com%2fWalls%2fBig%2fTemples%2fGolden_Temple_in_Amritsar.jpg&ehk=rTlCIyVb0HdOnG0n9PYCbDedzjMwjMn%2bl%2fwNVm0H02w%3d&risl=&pid=ImgRaw&r=0" alt="Forest" style="width:100%" style="height:20%">
+        </div>
+        <div class="column">
+          <img src="https://media.cntraveller.in/wp-content/uploads/2019/11/GettyImages-121109155.jpg" alt="Forest" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="https://th.bing.com/th/id/R.f69674d9044ae8c111264f2a4c260231?rik=GZW%2fuE91s0TU3w&riu=http%3a%2f%2fwww.designdestinations.org%2fwp-content%2fuploads%2f2017%2f04%2fDSC_0542.jpg&ehk=jsHcqeQfjaffQJ7hxyfW0WDIMqCQ3hYwVkO54AGmkYE%3d&risl=&pid=ImgRaw&r=0" alt="Forest" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="https://cdn.theculturetrip.com/wp-content/uploads/2015/12/shutterstock_388083082.jpg" alt="Mountains" style="width:100%">
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="column">
+          <img src="https://www.unusualtraveler.com/wp-content/uploads/2016/12/P3280052.jpg" alt="Snow" style="width:100%" style="height:100%">
+          <!-- <figcaption>The Image</figcaption> -->
+        </div>
+        <div class="column">
+          <img src="https://www.traveldealsfinder.com/wp-content/uploads/2014/08/Golden-Temple-in-Amritsar.jpg" alt="Forest" style="width:100%" style="height:20%">
+        </div>
+        <div class="column">
+          <img src="https://1.bp.blogspot.com/-SwoB_RpA3-k/VB7bqoIEz0I/AAAAAAAASJ8/xs_5pCLrL3c/s1600/amritsar+golden+temple+morning1.jpg" alt="Forest" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="https://4.bp.blogspot.com/-xLDRk1zvLzo/UvOqeYM_eMI/AAAAAAAAAZ8/JIWnCnZQMYI/s1600/P1010128+copy+copy.jpg" alt="Forest" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="https://th.bing.com/th/id/R.36729697eda7cd76f70cc5adf86bde50?rik=W%2f7AP5IFsoBdxA&riu=http%3a%2f%2f1.bp.blogspot.com%2f-xo-xa5uw_aE%2fUlrUw5q3wXI%2fAAAAAAAAQFg%2f9rY9cdrvGPg%2fs1600%2fgolden%2btemple%25252C%2bIndia%2b%2525281%252529.jpg&ehk=YB4zp7SO0G5GmRmVDhD5szoSEpUTvs25XGNMIt7jygo%3d&risl=&pid=ImgRaw&r=0" alt="Mountains" style="width:100%">
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="column">
+          <img src="https://th.bing.com/th/id/OIP.wQ3htsCQQk4FlZ9VMBhA6gHaE8?pid=ImgDet&rs=1" alt="Snow" style="width:100%" style="height:100%">
+          <!-- <figcaption>The Image</figcaption> -->
+        </div>
+        <div class="column">
+          <img src="https://assets.cntraveller.in/photos/60c07fa11393a40ce8d810b0/master/pass/D8R9MT.jpg" alt="Forest" style="width:100%" style="height:20%">
+        </div>
+        <div class="column">
+          <img src="https://th.bing.com/th/id/R.82c7d4aa41a3dca808008b706f61ee45?rik=1EMVqCvU77K1dg&riu=http%3a%2f%2f3.bp.blogspot.com%2f-1X569u4DGhA%2fUBiYz6SddqI%2fAAAAAAAAACc%2fKsUnQ2DbGxU%2fs1600%2fgolden_temple02.jpg&ehk=Gubk9cBEacNgtbjMpaRptoWVjLm8qjH%2fW3IGoki228c%3d&risl=&pid=ImgRaw&r=0" alt="Forest" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="https://image3.mouthshut.com/images/Restaurant/Photo/-62895_6855.jpg" alt="Forest" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="https://th.bing.com/th/id/OIP.9DfcuYtqFbFIYLox1mCxfgAAAA?pid=ImgDet&w=240&h=300&rs=1" alt="Mountains" style="width:100%">
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="column">
+          <img src="https://th.bing.com/th/id/R.7f6aa9c580407e411e2a3110ad7ee35a?rik=ZrdnQs67THsdlQ&riu=http%3a%2f%2f2.bp.blogspot.com%2f-dR_9omUwkBU%2fUrbOuEU7bXI%2fAAAAAAAADm8%2fKiaCcg7WI7Y%2fs1600%2fGolden%2bTemple%2b9.jpg&ehk=TZB7BM0CjlxXFdXJ0w6Z8USBICy%2fb%2b6nq9%2fBdrUt3PI%3d&risl=&pid=ImgRaw&r=0" alt="Snow" style="width:100%" style="height:100%">
+          <!-- <figcaption>The Image</figcaption> -->
+        </div>
+        <div class="column">
+          <img src="https://th.bing.com/th/id/OIP.CeY3uu2J1KuhtL3Pgoh_HQHaEB?pid=ImgDet&rs=1" alt="Forest" style="width:100%" style="height:20%">
+        </div>
+        <div class="column">
+          <img src="https://cdn.tripways.com/2020/11/07094043/golden-temple-3.jpg" alt="Forest" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="https://th.bing.com/th/id/R.09f56f00b67c6aff314518f39a8e20db?rik=1x2lcvr2WGZoZg&riu=http%3a%2f%2ffoundtheworld.com%2fwp-content%2fuploads%2f2015%2f12%2fGolden-Temple-3-1.jpg&ehk=ZZEvzPA62C5%2bmWEpqK1hGJiAE6pQDU9wRbe3QjY3GXw%3d&risl=&pid=ImgRaw&r=0" alt="Forest" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="https://th.bing.com/th/id/OIP.rXg9HKqiumLt_y_tPHr5HAAAAA?pid=ImgDet&w=400&h=400&rs=1" alt="Mountains" style="width:100%">
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="column">
+          <img src="https://th.bing.com/th/id/OIP.OIQeKLr0HC-Bvl_pcnVBMQHaI_?pid=ImgDet&w=768&h=932&rs=1" alt="Snow" style="width:100%" style="height:100%">
+          <!-- <figcaption>The Image</figcaption> -->
+        </div>
+        <div class="column">
+          <img src="https://th.bing.com/th/id/OIP.z2KNhJkn2ImGzYqqrwoGVQHaE-?pid=ImgDet&rs=1" alt="Forest" style="width:100%" style="height:20%">
+        </div>
+        <div class="column">
+          <img src="https://kids.kiddle.co/images/thumb/3/3d/Entrance_to_Golden_Temple%2C_Amritsar.jpg/800px-Entrance_to_Golden_Temple%2C_Amritsar.jpg" alt="Forest" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="https://i.pinimg.com/originals/67/e7/6d/67e76dc03a156a27fbeba6d0f9fe17d1.jpg" alt="Forest" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="https://i.pinimg.com/originals/e6/5f/76/e65f76d4e65ff393956be1046dcbd239.jpg" alt="Mountains" style="width:100%">
+        </div>
+      </div>
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Back to Top">&#128070;</button>
+  </body>  
+</html>
+
+<!-- ----------JS CODE FOR INFORMATION COLLAPSABLE SECTION---------- -->
+<script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+  for (i = 0; i < coll.length; i++)
+  {
+    coll[i].addEventListener
+    ("click", function()
+      {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight)
+        {
+          content.style.maxHeight = null;
+        }
+        else
+        {
+          content.style.maxHeight = content.scrollHeight + "px";
+        } 
+      }
+    );
+  }
+
+  // GO TO TOP BUTTON
+  // Get the button
+  let mybutton = document.getElementById("myBtn");
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20)
+    {
+      mybutton.style.display = "block";
+    } 
+    else
+    {
+      mybutton.style.display = "none";
+    }
+  }
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>

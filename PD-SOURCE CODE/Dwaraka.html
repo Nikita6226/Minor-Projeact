@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dwaraka</title>
+    <link rel="stylesheet" href="The CSS.css">    
+  </head>
+
+  <body>
+    <div class="Head">
+      <br>
+      <div id="content"></div>
+      <script>
+        fetch('Navigation.html')
+        .then(response => response.text())
+        .then(data => {
+          const content = document.querySelector('#content');
+          content.innerHTML = data;
+        })
+        .catch(error => console.log(error));
+      </script>
+      <br>
+      <h1> <b>DWARAKA</b> </h1>
+      <!-- ----------CLIMATE OF THE PLACE---------- -->
+      <div class="Climate">
+        <a class="weatherwidget-io" href="https://forecast7.com/en/22d2468d97/dwarka/" data-label_1="DWARKA"  data-font="Times New Roman" data-icons="Climacons Animated" data-theme="original">DWARKA WEATHER</a>
+        <script>
+          !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+        </script>
+      </div>
+    </div>
+    
+    <!-- ----------INFORMATION COLLAPSABLE SECTION---------- -->
+    <h3>Basic and Necessary Information</h3>
+    <div class="Info">
+      <button class="collapsible">Historical Information</button>
+      <div class="content">
+        <p>
+          &emsp;&nbsp; The town of Dwarka in Gujarat has a history that dates back centuries, and mentioned in the Mahabharata epic as the Dwaraka Kingdom. Situated on the banks of river Gomti, the town is described in legend as the capital of Krishna. Evidence such as a stone block with script, the way the stones were dressed showing that dowels had been used, and an examination of anchors found on the site suggest that the harbour site dates only to historical times, with some of the underwater structure being late Medieval. Coastal erosion was probably the cause of the destruction of what was an ancient port. <br>
+          &emsp;&nbsp; Hindus believe that the original temple was constructed by Vajranabh, the great grand son of Krishna, over the residential palace of Krishna. It was destroyed by Sultan Mahmud Begada in 1472. <br>          
+          &emsp;&nbsp; The current temple in Chaulukya style was constructed in 15-16th century. The temple covers area of 27-metre by 21-metre with east–west length of 29-metre and north–south width of 23 metres. The tallest peak of the temple is 51.8 m high.
+        </p>
+      </div>
+      <br>
+      <button class="collapsible">Architectural Information</button>
+      <div class="content">
+        <p>
+          &emsp;&nbsp; It is a five storied edifice built over 72 pillars (sandstone temple with 60 pillars is also mentioned). There are two important entrances to the temple, one is the main entry door which is called the Moksha Dwar (meaning "Door to Salvation") and the exit door which is known as the Swarga Dwar (meaning: "Gate to Heaven"). <br>
+          &emsp;&nbsp; The main deity deified in the sanctum is of Dwarkadeesh, which is known as Trivikrama form of Vishnu and is depicted with four arms. On the chamber to the left of the main altar is the deity of Balarama, elder brother of Krishna. The chamber to the right houses the images of Pradyumna and Aniruddha, son and grandson of Krishna. In several shrines surrounding the central shrine there are idols of goddess Radha, Jambavati, Satyabhama and Lakshmi. Shrines of Madhav Raoji (another name for Krishna), Balrama and sage Durvasa is also present in the temple. There are also two separate shrines dedicated to Radha Krishna and Devaki just in front of the central shrine of Dwarkadhish.[citation needed] <br>          
+          &emsp;&nbsp; The temple spire rises to a height of 78 metres (256 ft) and a very large flag with symbols of Sun and Moon is hoisted on it.[20] The flag, triangular in shape, is of 50 feet (15 m) length. This flag is changed four times a day with a new one and Hindus pay a huge sum of money to hoist it by purchasing a new flag. The money received on this account is credited to the trust fund of the temple to meet the operation and maintenance expenses of the temple.
+        </p>
+      </div>
+      <br>
+      <button class="collapsible">RELIGIOUS IMPORTANCE</button>
+      <div class="content">
+        <p>
+          &emsp;&nbsp; The flag atop the temple shows the sun and moon, which is believed to indicate that Krishna would be there till Sun and Moon exist on Earth. The flag is changed up to five times a day, but the symbol remains the same. The temple has a five-story structure built on seventy-two pillars. The temple spire is 78.3 m high. The temple is constructed of limestone which is still in pristine condition. The temple shows intricate sculptural detailing. <br>
+          &emsp;&nbsp;There are two entrances to the temple. The main entrance (north entrance) is called "Moksha Dwara" (Door to Salvation). This entrance takes one to the main market. The south entrance is called "Swarga Dwara" (Gate to Heaven). Outside this doorway are 56 steps that leads to the Gomati River. Though the origins are not clearly known, the Advaita school of Hinduism established by Sankaracharya, who created Hindu monastic institutions across India, attributes the origin of Char Dham to the seer. The four monasteries are located across the four corners of India and their attendant temples are Badrinath Temple at Badrinath in the North, Jagannath Temple at Puri in the East, Dwarakadheesh Temple at Dwarka in the West and Ramanathaswamy Temple at Rameswaram in the South.
+        </p>
+      </div>
+    </div>
+
+    <!-- MAP -->
+    <br>
+      <a href="https://www.google.com/maps/dir/?api=1&destination=Shree%20Dwarkadhish%20Temple%20Dwarka,%20Okhamandal,%20Gujarat%20361335&travelmode=driving&dir_action=navigate" target="_blank" rel="noopener noreferrer" style="font-size: 50px;">&#127757;</a>
+    <br>
+
+    <!-- IMAGES -->
+    <h1 id="images" style="background-color:rgb(130, 127, 126);"><i>IMAGES OF DWARAKA</i></h1>
+    <div class="images-container">
+      <div class="row">
+        <div class="column">
+          <img src="https://th.bing.com/th/id/OIP.veqbz1fSMeyrrDluEJ6iBgHaEO?w=286&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Snow" style="width:100%" style="height:100%">
+          <!-- <figcaption>The Image</figcaption> -->
+        </div>
+        <div class="column">
+          <img src="https://th.bing.com/th/id/OIP.SD25sxnCUr2Q4E6LOnYj5QHaEq?w=242&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Forest" style="width:100%" style="height:20%">
+        </div>
+        <div class="column">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Dwarka_beach_when_the_sea_and_sun_sets.jpg/330px-Dwarka_beach_when_the_sea_and_sun_sets.jpg" alt="Forest" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="https://th.bing.com/th/id/OIP.KXFfWKzNNAmVaoU87zFlZAHaE7?w=277&h=184&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Forest" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="https://th.bing.com/th/id/OIP.ubR9Sl1VqHjf0mXJenJWHQHaE5?w=228&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Mountains" style="width:100%">
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="column">
+          <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/1d/77/5f/other-side-view-from.jpg?w=1200&h=-1&s=1" alt="Snow" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="https://media-cdn.tripadvisor.com/media/photo-o/02/cd/57/d5/jagad-mandir-dwarka.jpg" alt="Forest" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="https://media-cdn.tripadvisor.com/media/photo-o/1c/5b/f4/f9/jai-dwarkadhishpraise.jpg" alt="Forest" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="https://media-cdn.tripadvisor.com/media/photo-s/03/20/2f/80/dwarakadheesh.jpg" alt="Forest" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="https://youimg1.tripcdn.com/target/ww0m1f000001h0mhi7310_C_640_470.png_.webp?proc=source%2ftrip" alt="Forest" style="width:100%">
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="column">
+          <img src="https://media-cdn.tripadvisor.com/media/photo-s/19/d0/1e/77/img-20191025-111846-largejpg.jpg" alt="Snow" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="https://th.bing.com/th/id/OIP.cbInXEDO36VqH97rBslrXgHaFj?w=201&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Forest" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="https://th.bing.com/th/id/OIP.cJSB4a9aBnkeZ8JeEN477gHaE8?w=284&h=190&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Forest" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="https://th.bing.com/th/id/OIP.imKWhaNnOpw8NFYC6xtMJAHaE6?w=238&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Forest" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="https://th.bing.com/th/id/OIP.e6zXUEu1Axw-3OecP_FW4QHaDq?w=350&h=173&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Forest" style="width:100%">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column">
+          <img src="https://th.bing.com/th/id/OIP.GYQ8NqL1ZT53_ncB-jjaNQHaEH?w=324&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Snow" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="https://th.bing.com/th/id/OIP.A4nzdwphDEgnjJUXoxNTzAHaDj?w=271&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Forest" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="https://th.bing.com/th/id/OIP.fxh5EilJ3pW5_Hs4eYh76gHaFj?w=222&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Forest" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="https://th.bing.com/th/id/OIP.tP5omUU-v8KfOtqE-dOObgHaGH?w=201&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Forest" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="https://th.bing.com/th/id/OIP.Ea0VSNXHU4XBxM4dbf58yQHaDq?w=323&h=173&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Forest" style="width:100%">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column">
+          <img src="https://th.bing.com/th/id/OIP.bDfNtfHgRBB3jzSWDiCT0QHaEo?w=268&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Snow" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="https://th.bing.com/th/id/OIP.wCSMLLn_ZASixPfoyJuKlgHaEo?w=242&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Forest" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="https://th.bing.com/th/id/OIP.CDSvnL38cKqr20dC7uHgUQHaFb?w=261&h=192&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Forest" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="https://th.bing.com/th/id/OIP.0yLXWk1cVy6UoUz2_ET5YQHaFB?w=284&h=192&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Forest" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="https://th.bing.com/th/id/OIP.JLFA6g-Gn2d8Ibs79d0RAQHaE5?w=264&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Forest" style="width:100%">
+        </div>
+      </div>
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">&#128070;</button>
+  </body>  
+</html>
+
+<!-- ----------JS CODE FOR INFORMATION COLLAPSABLE SECTION---------- -->
+<script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+  for (i = 0; i < coll.length; i++)
+  {
+    coll[i].addEventListener
+    ("click", function()
+      {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight)
+        {
+          content.style.maxHeight = null;
+        }
+        else
+        {
+          content.style.maxHeight = content.scrollHeight + "px";
+        } 
+      }
+    );
+  }
+
+  // GO TO TOP BUTTON
+  // Get the button
+  let mybutton = document.getElementById("myBtn");
+  // When the user scrolls down 50px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+  function scrollFunction() {
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50)
+    {
+      mybutton.style.display = "block";
+    } 
+    else
+    {
+      mybutton.style.display = "none";
+    }
+  }
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>

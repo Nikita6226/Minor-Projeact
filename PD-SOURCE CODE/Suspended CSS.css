@@ -1,0 +1,133 @@
+/* ----------COMPLETE BODY CSS---------- */
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: rgb(250, 250, 250);
+  color: rgb(0, 0, 0);
+  margin: auto;
+}
+
+/* ----------TITLE---------- */
+h1 {
+  text-align: center;
+  border-radius: 5px;
+  margin: 2px;
+}
+
+.Climate{
+  padding-top: 10px;
+}
+
+/* ----------INFORMATION COLLAPSABLE SECTION---------- */
+.collapsible {
+  background-color: rgb(200, 200, 200);
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  border: solid rgb(0, 0, 0) 2px;
+}
+
+.active, .collapsible:hover {
+  background-color: rgb(50, 50, 50);
+  color: white;
+  border: solid white 2px;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 3s ease-out;
+  width: 100%;
+  background-color: rgb(242, 233, 233);
+  color: black;
+  border: solid black 2px;
+  align-content : justify;
+}
+
+
+/* ----------IMAGES---------- */
+* {
+  box-sizing: border-box;
+}
+
+img{
+  width: 250px;
+  height: 200px;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  height: 20%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  height: 20%;
+  clear: both;
+  width: 50%;
+  display: table;
+}
+
+.column {
+  border: 2px rgb(58, 11, 11) solid;
+  padding: 1px;
+  margin: auto;
+}
+
+figcaption {
+  background-color: black;
+  color: white;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/* GO TO TOP BUTTON */
+#myBtn {
+  color: red;
+  display: none;
+  position: fixed;
+  bottom: 0px;
+  right: 0px; 
+  font-size: 30px;
+  cursor: pointer;
+  padding-left: 1px;
+  padding-bottom: 1px;
+  padding-right: 1px;
+  padding-top: 1px;
+}
+
+#myBtn:hover {
+  color: black;
+}

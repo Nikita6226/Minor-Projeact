@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="The CSS.css">    
+  </head>
+
+  <body>
+    <div class="Head">
+      <br>
+      <div id="content"></div>
+      <script>
+        fetch('Navigation.html')
+        .then(response => response.text())
+        .then(data => {
+          const content = document.querySelector('#content');
+          content.innerHTML = data;
+        })
+        .catch(error => console.log(error));
+      </script>
+      <br>
+      <h1> <b></b> </h1>
+      <!-- ----------CLIMATE OF THE PLACE---------- -->
+      <div class="Climate">
+        
+      </div>
+    </div>
+    
+    <!-- ----------INFORMATION COLLAPSABLE SECTION---------- -->
+    <h3>Basic and Necessary Information</h3>
+    <div class="Info">
+      <button class="collapsible">Historical Information</button>
+      <div class="content">
+        <p>
+          &emsp;&nbsp; 
+        </p>
+      </div>
+      <br>
+      <button class="collapsible">Architectural Information</button>
+      <div class="content">
+        <p>
+          &emsp;&nbsp; 
+        </p>
+      </div>
+      <br>
+      <button class="collapsible">Neighbouring Visit Worthy Places</button>
+      <div class="content">
+        <p>
+          &emsp;&nbsp;
+        </p>
+      </div>
+    </div>
+
+    <!-- MAP -->
+    <br>
+    <a href="" target="_blank" rel="noopener noreferrer" style="font-size: 50px;">&#127757;</a>
+    <br>
+
+    <!-- IMAGES -->
+    <h1 id="images" style="background-color:rgb(130, 127, 126);"><i>IMAGES OF </i></h1>
+    <div class="images-container">
+      <div class="row">
+        <div class="column">
+          <img src="" alt="Snow" style="width:100%" style="height:100%">
+          <!-- <figcaption>The Image</figcaption> -->
+        </div>
+        <div class="column">
+          <img src="" alt="Forest" style="width:100%" style="height:20%">
+        </div>
+        <div class="column">
+          <img src="" alt="Forest" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="" alt="Forest" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="" alt="Mountains" style="width:100%">
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="column">
+          <img src="" alt="Snow" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="" alt="Forest" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="" alt="Forest" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="" alt="Forest" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="" alt="Forest" style="width:100%">
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="column">
+          <img src="" alt="Snow" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="" alt="Forest" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="" alt="Forest" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="" alt="Forest" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="" alt="Forest" style="width:100%">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column">
+          <img src="" alt="Snow" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="" alt="Forest" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="" alt="Forest" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="" alt="Forest" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="" alt="Forest" style="width:100%">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column">
+          <img src="" alt="Snow" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="" alt="Forest" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="" alt="Forest" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="" alt="Forest" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="" alt="Forest" style="width:100%">
+        </div>
+      </div>
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">&#128070;</button>
+  </body>  
+</html>
+
+<!-- ----------JS CODE FOR INFORMATION COLLAPSABLE SECTION---------- -->
+<script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+  for (i = 0; i < coll.length; i++)
+  {
+    coll[i].addEventListener
+    ("click", function()
+      {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight)
+        {
+          content.style.maxHeight = null;
+        }
+        else
+        {
+          content.style.maxHeight = content.scrollHeight + "px";
+        } 
+      }
+    );
+  }
+
+  // GO TO TOP BUTTON
+  // Get the button
+  let mybutton = document.getElementById("myBtn");
+  // When the user scrolls down 50px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+  function scrollFunction() {
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50)
+    {
+      mybutton.style.display = "block";
+    } 
+    else
+    {
+      mybutton.style.display = "none";
+    }
+  }
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>

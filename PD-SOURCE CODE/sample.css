@@ -1,0 +1,145 @@
+/* ----------COMPLETE BODY CSS---------- */
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body{
+    /* background-color:rgb(118, 82, 82); */
+    background-color: rgb(12, 12, 61);
+    color: rgb(213, 224, 233);
+    margin: auto;
+    padding: 10px;
+    /* border: 2px solid white; */
+  }
+  
+  /* ----------TITLE---------- */
+  h1 {
+    text-align: center;
+    /* background-color: rgb(69, 34, 95) !important; */
+    background-color: #388087;
+    /* border: 1px solid white; */
+    border-radius: 5px;
+    margin: 2px;
+  }
+  
+  .Climate{
+    padding-top: 10px;
+  }
+  
+  /* ----------INFORMATION COLLAPSABLE SECTION---------- */
+  .collapsible {
+    background-color: #6fb3b8;
+    color: midnightblue;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    border: solid rgb(0, 0, 0) 2px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: Royalblue ;
+  }
+  
+  .collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 3s ease-out;
+    width: 100%;
+    background-color: #c2edce;
+    color: black;
+    border: solid black 2px;
+    align-content : justify;
+  }
+  
+  
+  /* ----------IMAGES---------- */
+  * {
+    box-sizing: border-box;
+  }
+  
+  img{
+    width: 250px;
+    height: 200px;
+  }
+  
+  .column {
+    float: left;
+    width: 20%;
+    height: 20%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    height: 20%;
+    clear: both;
+    width: 50%;
+    display: table;
+  }
+  
+  .column {
+    border: 2px rgb(58, 11, 11) solid;
+    padding: 1px;
+    margin: auto;
+  }
+  
+  figcaption {
+    background-color:Space;
+    color: white;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  
+  /* GO TO TOP BUTTON */
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgb(230, 211, 211);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 500px;
+  }
+  
+  #myBtn:hover {
+    background-color: rgb(194, 177, 177);
+    color: black;
+  }
+  
+  #myBtn:hover {
+    background-color: white;
+    color: rgb(223, 207, 207);
+  }
